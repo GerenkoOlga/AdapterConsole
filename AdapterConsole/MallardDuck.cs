@@ -5,7 +5,7 @@ namespace AdapterConsole
 	/// <summary>
 	/// Summary description for MallardDuck.
 	/// </summary>
-	public class MallardDuck : Duck
+	public class MallardDuck : IDuck
 	{
 		public MallardDuck()
 		{}

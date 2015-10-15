@@ -6,11 +6,11 @@ namespace AdapterConsole
 	/// <summary>
 	/// Summary description for TurkeyAdapter.
 	/// </summary>
-	public class DuckAdapter : Turkey
+	public class DuckAdapter : ITurkey
 	{
-		Duck duck;
+		IDuck duck;
 
-		public DuckAdapter(Duck duck)
+		public DuckAdapter(IDuck duck)
 		{
 			this.duck = duck;
 		}

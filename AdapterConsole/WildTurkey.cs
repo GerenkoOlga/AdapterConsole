@@ -5,7 +5,7 @@ namespace AdapterConsole
 	/// <summary>
 	/// Summary description for WildTurkey.
 	/// </summary>
-	public class WildTurkey : Turkey
+	public class WildTurkey : ITurkey
 	{
 		public WildTurkey()
 		{}

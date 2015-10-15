@@ -5,7 +5,7 @@ namespace AdapterConsole
 	/// <summary>
 	/// Summary description for Duck.
 	/// </summary>
-	public interface Duck
+	public interface IDuck
 	{
 		string Quack();
 		string Fly();
